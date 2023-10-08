@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&family=Titan+One&display=swap');
@@ -9,7 +9,7 @@ body, h1, h2, p {
     
 }
 
-/* Style the header and navbar */
+
 header {
     
     color:rgb(85, 0, 128);
@@ -26,7 +26,7 @@ header {
     padding: 0 0px;
 }
 
-/* Style the left side (logo and website name) */
+
 .left {
     display: flex;
     align-items: center;
@@ -45,7 +45,7 @@ header {
 
 }
 
-/* Style the right side (home button) */
+
 .right {
     text-align: right;
 }
@@ -62,7 +62,6 @@ main {
     text-align: center;
 }
 
-/* Style the buttons */
 .url-button,
 .image-button {
     display: inline-block;
@@ -111,7 +110,6 @@ main {
     
 }
 
-/* Style the search button */
 .search-button {
     background-color: rgb(85, 0, 128);
     border: none;
@@ -121,8 +119,6 @@ main {
     transition: background-color 0.3s ease;
    
 }
-
-/* Style the Font Awesome search icon inside the button */
 .search-button i {
     color: #fff;
 }
